@@ -1,0 +1,17 @@
+<Page class="page">
+	<Page.actionBar>
+		<ActionBar class="action-bar">
+			<StackLayout class="action-bar-title">
+				<Label text="I2V"></Label>
+			</StackLayout>
+		</ActionBar>
+	</Page.actionBar>
+	<StackLayout orientation="vertical" class="tag-chart-view">
+		<TextField class="problemInput" hint="Enter or select the target
+problem"></TextField>
+		<ScrollView width="100%" height="100%">
+			<web-view #webView></web-view>
+		</ScrollView>
+		<Label text="Average to complete: 15 seconds" class="average-time"></Label>
+	</StackLayout>
+</Page>

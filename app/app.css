@@ -1,0 +1,46 @@
+@import "nativescript-theme-core/css/core.light.css";
+
+.action-bar {
+	background-color: #434343;
+}
+
+.action-bar Label {
+	color: #FFF;
+	font-size: 14;
+}
+
+
+.page {
+	background-color: #666666;
+}
+
+.page ScrollView {
+	margin: 0;
+	border: 0;
+	margin-top: 10;
+}
+
+.problemInput {
+	margin: 15 30 10 30;
+	padding: 0 0 5 0;
+	border-color: #FFFFFF;
+	border-width: 0 0 1 0;
+	placeholder-color: #A1ACB2;
+	color: white;
+	font-size: 10;
+	text-align: center;
+}
+
+.tag-chart-view ScrollView {
+	/*margin-left: 0;*/
+	/*margin-right: 0;*/
+}
+
+/*
+.average-time {
+	font-size: 10;
+	color: white;
+	font-weight: 400;
+	padding: 15 35;
+}
+*/
